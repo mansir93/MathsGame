@@ -1,0 +1,75 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <title>Maths Game</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=yes">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <div id="container">
+            <div id="score">
+                Score:<span id="scorevalue">0</span>
+            </div>
+            <div id="correct">
+                Correct
+            </div>
+            <div id="wrong">
+                Try Again
+            </div>
+            <div id="question">
+                
+            </div>
+            <div id="instruction">
+                Click on the Correct Answer.
+            </div>
+            <div id="choices">
+                <div id="box1" class="box"></div>
+                <div id="box2" class="box"></div>
+                <div id="box3" class="box"></div>
+                <div id="box4" class="box"></div>
+            </div>
+            <div id="startreset">
+                Start Game
+            </div>
+            <div id="timeremaining">
+                Time remaining: <span id="timeremainingvalue"> 60</span>sec.
+            </div>
+            <div id="gameover">
+            
+            </div>
+        </div>
+<!--		Game sounds-->
+		<div>
+			<audio id="startgamesound">
+  			    <source src="gamesound/startGame.wav" type="audio/ogg">
+				<source src="gamesound/startGame.wav" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+			<audio id="playsound">
+  			    <source src="gamesound/playingSound.wav" type="audio/ogg">
+				<source src="gamesound/playingSound.wav" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+			<audio id="correctsound">
+  			    <source src="gamesound/correctSound.wav" type="audio/ogg">
+				<source src="gamesound/correctSound.wav" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+			<audio id="wrongsound">
+  			    <source src="gamesound/wrongSound.wav" type="audio/ogg">
+				<source src="gamesound/wrongSound.wav" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+			<audio id="gameoversound">
+  			    <source src="gamesound/gameOverSound.wav" type="audio/ogg">
+				<source src="gamesound/gameOverSound.wav" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+			
+		</div>
+    <script src="script.js"></script>    
+    </body>
+    
+</html>
